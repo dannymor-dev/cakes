@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cakes Website - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cakes Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main-content">
+        <section id="welcome-section">
+            <h2>Welcome to Cakes Website</h2>
+            <p>Explore delicious cake recipes, shop for cakes, and more!</p>
+            <p>Please log in below or <a href="signup.html">sign up</a> to access all features.</p>
+        </section>
+        
+        <!-- Login and Signup Section -->
+        <section id="login-signup-section">
+            <div class="login-form">
+                <h2>Login</h2>
+                <form action="login.php" method="post">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+            <div class="signup-link">
+                <p>New user? <a href="signup.html">Sign Up</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cakes Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
